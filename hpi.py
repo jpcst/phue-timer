@@ -7,7 +7,7 @@ import requests
 from phue import Bridge
 
 dir_win = 'C:/phue/ip.txt'
-dir_lin = '/home/jp/phue-terminal/ip.txt'
+dir_lin = '/home/pi/phue-timer/ip.txt'
 
 def os_type(): # Detect OS
 	if (os.name == 'nt'):
